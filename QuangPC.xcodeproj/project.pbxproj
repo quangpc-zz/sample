@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77B611C82147A9628343A327 /* Pods_QuangPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996C2A2E115305F04533E2BC /* Pods_QuangPC.framework */; };
+		9B3346391F44B1FC00479AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3346381F44B1FC00479AA4 /* AppDelegate.swift */; };
+		9B33463E1F44B1FC00479AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B33463C1F44B1FC00479AA4 /* Main.storyboard */; };
+		9B3346401F44B1FC00479AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B33463F1F44B1FC00479AA4 /* Assets.xcassets */; };
+		9B3346431F44B1FC00479AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3346411F44B1FC00479AA4 /* LaunchScreen.storyboard */; };
+		9B9ED7AA1F44B3CE0070C55C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ED7A91F44B3CE0070C55C /* MainViewController.swift */; };
+		9B9ED7AE1F44B4260070C55C /* TableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ED7AD1F44B4260070C55C /* TableViewCellExtensions.swift */; };
+		9B9ED7B21F44B5960070C55C /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ED7B11F44B5960070C55C /* MainCardView.swift */; };
+		9B9ED7B41F44B59F0070C55C /* MainCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9ED7B31F44B59F0070C55C /* MainCardView.xib */; };
+		9B9ED7B61F44B5C90070C55C /* MainCardOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ED7B51F44B5C90070C55C /* MainCardOverlayView.swift */; };
+		9B9ED7B81F44B5D10070C55C /* MainCardOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9ED7B71F44B5D10070C55C /* MainCardOverlayView.xib */; };
+		9B9ED7BB1F44B9530070C55C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ED7BA1F44B9530070C55C /* Utils.swift */; };
+		9B9ED7BF1F44BAC00070C55C /* DevModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ED7BE1F44BAC00070C55C /* DevModel.swift */; };
+		9B9ED7C21F44C4810070C55C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ED7C11F44C4810070C55C /* DetailViewController.swift */; };
+		9B9ED7C51F44C4B70070C55C /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ED7C41F44C4B70070C55C /* StoryboardHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10A73FCC435FCB081B3429B4 /* Pods-QuangPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangPC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuangPC/Pods-QuangPC.debug.xcconfig"; sourceTree = "<group>"; };
+		95C6C94ED3FDA555DF5C61EF /* Pods-QuangPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangPC.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuangPC/Pods-QuangPC.release.xcconfig"; sourceTree = "<group>"; };
+		996C2A2E115305F04533E2BC /* Pods_QuangPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuangPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3346351F44B1FC00479AA4 /* QuangPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuangPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3346381F44B1FC00479AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B33463D1F44B1FC00479AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B33463F1F44B1FC00479AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B3346421F44B1FC00479AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B3346441F44B1FC00479AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9ED7A91F44B3CE0070C55C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9B9ED7AD1F44B4260070C55C /* TableViewCellExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellExtensions.swift; sourceTree = "<group>"; };
+		9B9ED7B11F44B5960070C55C /* MainCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
+		9B9ED7B31F44B59F0070C55C /* MainCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCardView.xib; sourceTree = "<group>"; };
+		9B9ED7B51F44B5C90070C55C /* MainCardOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCardOverlayView.swift; sourceTree = "<group>"; };
+		9B9ED7B71F44B5D10070C55C /* MainCardOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCardOverlayView.xib; sourceTree = "<group>"; };
+		9B9ED7BA1F44B9530070C55C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9B9ED7BE1F44BAC00070C55C /* DevModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevModel.swift; sourceTree = "<group>"; };
+		9B9ED7C11F44C4810070C55C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9B9ED7C41F44C4B70070C55C /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B3346321F44B1FC00479AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B611C82147A9628343A327 /* Pods_QuangPC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BD51509B5C38704DF3353B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10A73FCC435FCB081B3429B4 /* Pods-QuangPC.debug.xcconfig */,
+				95C6C94ED3FDA555DF5C61EF /* Pods-QuangPC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82634F7F8DCE3786514236AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				996C2A2E115305F04533E2BC /* Pods_QuangPC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B33462C1F44B1FC00479AA4 = {
+			isa = PBXGroup;
+			children = (
+				9B3346371F44B1FC00479AA4 /* QuangPC */,
+				9B3346361F44B1FC00479AA4 /* Products */,
+				07BD51509B5C38704DF3353B /* Pods */,
+				82634F7F8DCE3786514236AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3346361F44B1FC00479AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3346351F44B1FC00479AA4 /* QuangPC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3346371F44B1FC00479AA4 /* QuangPC */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7C31F44C4A90070C55C /* Application */,
+				9B9ED7BC1F44BAA50070C55C /* Models */,
+				9B9ED7AB1F44B3EB0070C55C /* Libs */,
+				9B9ED7AF1F44B57D0070C55C /* Views */,
+				9B9ED7A71F44B3B00070C55C /* Controllers */,
+				9B3346381F44B1FC00479AA4 /* AppDelegate.swift */,
+				9B33463C1F44B1FC00479AA4 /* Main.storyboard */,
+				9B33463F1F44B1FC00479AA4 /* Assets.xcassets */,
+				9B3346411F44B1FC00479AA4 /* LaunchScreen.storyboard */,
+				9B3346441F44B1FC00479AA4 /* Info.plist */,
+			);
+			path = QuangPC;
+			sourceTree = "<group>";
+		};
+		9B9ED7A71F44B3B00070C55C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7C01F44C4740070C55C /* Detail */,
+				9B9ED7A81F44B3BE0070C55C /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9B9ED7A81F44B3BE0070C55C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7A91F44B3CE0070C55C /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9B9ED7AB1F44B3EB0070C55C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7B91F44B9450070C55C /* Utils */,
+				9B9ED7AC1F44B3F60070C55C /* Extentions */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		9B9ED7AC1F44B3F60070C55C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7AD1F44B4260070C55C /* TableViewCellExtensions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		9B9ED7AF1F44B57D0070C55C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7B01F44B5870070C55C /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B9ED7B01F44B5870070C55C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7B11F44B5960070C55C /* MainCardView.swift */,
+				9B9ED7B31F44B59F0070C55C /* MainCardView.xib */,
+				9B9ED7B51F44B5C90070C55C /* MainCardOverlayView.swift */,
+				9B9ED7B71F44B5D10070C55C /* MainCardOverlayView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9B9ED7B91F44B9450070C55C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7BA1F44B9530070C55C /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9B9ED7BC1F44BAA50070C55C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7BE1F44BAC00070C55C /* DevModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B9ED7C01F44C4740070C55C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7C11F44C4810070C55C /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		9B9ED7C31F44C4A90070C55C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ED7C41F44C4B70070C55C /* StoryboardHelper.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B3346341F44B1FC00479AA4 /* QuangPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3346471F44B1FC00479AA4 /* Build configuration list for PBXNativeTarget "QuangPC" */;
+			buildPhases = (
+				5CA009DCC093BD97840F2756 /* [CP] Check Pods Manifest.lock */,
+				9B3346311F44B1FC00479AA4 /* Sources */,
+				9B3346321F44B1FC00479AA4 /* Frameworks */,
+				9B3346331F44B1FC00479AA4 /* Resources */,
+				28BA493CF81A4887D3B8F42B /* [CP] Embed Pods Frameworks */,
+				AE6AF685FD0DE2D83F9AD75F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuangPC;
+			productName = QuangPC;
+			productReference = 9B3346351F44B1FC00479AA4 /* QuangPC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B33462D1F44B1FC00479AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = quangpc;
+				TargetAttributes = {
+					9B3346341F44B1FC00479AA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9B3346301F44B1FC00479AA4 /* Build configuration list for PBXProject "QuangPC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B33462C1F44B1FC00479AA4;
+			productRefGroup = 9B3346361F44B1FC00479AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3346341F44B1FC00479AA4 /* QuangPC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B3346331F44B1FC00479AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3346431F44B1FC00479AA4 /* LaunchScreen.storyboard in Resources */,
+				9B3346401F44B1FC00479AA4 /* Assets.xcassets in Resources */,
+				9B33463E1F44B1FC00479AA4 /* Main.storyboard in Resources */,
+				9B9ED7B41F44B59F0070C55C /* MainCardView.xib in Resources */,
+				9B9ED7B81F44B5D10070C55C /* MainCardOverlayView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28BA493CF81A4887D3B8F42B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuangPC/Pods-QuangPC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA009DCC093BD97840F2756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6AF685FD0DE2D83F9AD75F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuangPC/Pods-QuangPC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B3346311F44B1FC00479AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9ED7C51F44C4B70070C55C /* StoryboardHelper.swift in Sources */,
+				9B9ED7B61F44B5C90070C55C /* MainCardOverlayView.swift in Sources */,
+				9B9ED7BF1F44BAC00070C55C /* DevModel.swift in Sources */,
+				9B3346391F44B1FC00479AA4 /* AppDelegate.swift in Sources */,
+				9B9ED7AA1F44B3CE0070C55C /* MainViewController.swift in Sources */,
+				9B9ED7AE1F44B4260070C55C /* TableViewCellExtensions.swift in Sources */,
+				9B9ED7B21F44B5960070C55C /* MainCardView.swift in Sources */,
+				9B9ED7BB1F44B9530070C55C /* Utils.swift in Sources */,
+				9B9ED7C21F44C4810070C55C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B33463C1F44B1FC00479AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B33463D1F44B1FC00479AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B3346411F44B1FC00479AA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3346421F44B1FC00479AA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B3346451F44B1FC00479AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B3346461F44B1FC00479AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B3346481F44B1FC00479AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A73FCC435FCB081B3429B4 /* Pods-QuangPC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QuangPC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutacode.QuangPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B3346491F44B1FC00479AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C6C94ED3FDA555DF5C61EF /* Pods-QuangPC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QuangPC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutacode.QuangPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B3346301F44B1FC00479AA4 /* Build configuration list for PBXProject "QuangPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3346451F44B1FC00479AA4 /* Debug */,
+				9B3346461F44B1FC00479AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3346471F44B1FC00479AA4 /* Build configuration list for PBXNativeTarget "QuangPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3346481F44B1FC00479AA4 /* Debug */,
+				9B3346491F44B1FC00479AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B33462D1F44B1FC00479AA4 /* Project object */;
+}

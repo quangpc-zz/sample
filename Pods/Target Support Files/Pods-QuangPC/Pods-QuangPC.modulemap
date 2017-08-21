@@ -1,0 +1,6 @@
+framework module Pods_QuangPC {
+  umbrella header "Pods-QuangPC-umbrella.h"
+
+  export *
+  module * { export * }
+}

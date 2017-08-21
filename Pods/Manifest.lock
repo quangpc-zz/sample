@@ -1,0 +1,24 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - Koloda (4.1):
+    - pop (~> 1.0)
+  - pop (1.0.10)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - DACircularProgress
+  - Koloda
+  - pop
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Koloda: 6c4fa3ce9a68776a8ef973311e53fdda432799a8
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: a41b3db1a84d90e31c00a79ef8bcb1f5662cb88c
+
+COCOAPODS: 1.2.1
